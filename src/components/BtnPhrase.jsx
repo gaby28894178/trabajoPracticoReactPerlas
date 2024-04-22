@@ -22,8 +22,7 @@ const BtnPhrase = ({ setPhraseSelected, setBgPhoto }) => {
 
   return (
     <div>
-      <button onClick={handleChange}>Versiculo Diario</button>
-    </div>
+      <button className='btn' onClick={handleChange}>Versiculo Diario</button>    </div>
   );
 };
 
